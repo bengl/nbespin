@@ -1,15 +1,18 @@
 nbespin
 =======
 
-A text editor with Bespin Embedded as a frontend and Node.js as a backend.  Not yet ready for damn near anything except some basic file editing, check the issues in github.  This is really just a bit of an experiment, not much more.
+A text editor with Bespin Embedded as a frontend and Node.js as a backend, written in CoffeeScript.  Not yet ready for damn near anything except some basic file editing, check the issues in github.  This is really just a bit of an experiment, not much more.
 
 Requirements
 ------------
 Node.js (http://nodejs.org)
+CoffeeScript (http://coffeescript.org)
 
 Installation
 ------------
 $ git clone git://github.com/bengl/nbespin.git
+$ cd nbespin
+$ coffee -c nbespin.coffee
 
 Usage
 -----
