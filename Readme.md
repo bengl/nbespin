@@ -16,7 +16,7 @@ Installation
 
 Usage
 -----
-Provided <nbespin path>/bin is on your $PATH, you can do this:
+Provided &lt;nbespin path&gt;/bin is on your $PATH, you can do this:
 	$ nbespin <file>
 Then open your HTML5 web browser of choice to http://localhost:8080/ and have at your file!  Save at any time by clicking the save link.  Kill the process when you're done (Ctrl+C in the terminal you ran it from).
 
