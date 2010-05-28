@@ -32,13 +32,17 @@ respond: (res,data) ->
 	  "Content-Type": "text/html"
 	} 
 	res.write data,encoding="utf8"
-	res.close()
+	res.end()
 
 #Server
 server = http.createServer (req,res) ->
 	if req.method=="GET"
-		fd = fs.readFileSync fileName,encoding="utf8"	
-		respond res,renderBespin fd
+		try 
+			fd = fs.readFileSync fileName,encoding="utf8"	
+		catch err
+			fd = ""
+		
+		respond res,renderBespin fd			
 	else if req.method=="POST"
 		body = ""
 		req.addListener "data", (chunk) ->

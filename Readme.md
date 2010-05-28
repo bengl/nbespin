@@ -5,24 +5,22 @@ A text editor with Bespin Embedded as a frontend and Node.js as a backend, writt
 
 Requirements
 ------------
-Node.js (http://nodejs.org)
-CoffeeScript (http://coffeescript.org)
+ * Node.js (http://nodejs.org) v0.1.93+
+ * CoffeeScript (http://coffeescript.org) v0.6.2+
 
 Installation
 ------------
-$ git clone git://github.com/bengl/nbespin.git
-$ cd nbespin
-$ coffee -c nbespin.coffee
+	$ git clone git://github.com/bengl/nbespin.git
+	$ cd nbespin
+	$ coffee -c nbespin.coffee
 
 Usage
 -----
-Provided <nbespin root>/bin is on your $PATH, you can do this:
-$ nbespin <file>
-Then open your HTML5 web browser of choice to http://localhost:8080/ and have at your file!  Save at any time by clicking the save link.Kill the process when you're done (Ctrl+C in the terminal you ran it from).
+Provided <nbespin path>/bin is on your $PATH, you can do this:
+	$ nbespin <file>
+Then open your HTML5 web browser of choice to http://localhost:8080/ and have at your file!  Save at any time by clicking the save link.  Kill the process when you're done (Ctrl+C in the terminal you ran it from).
 
-Note
-----
-It doesn't currently create files if they don't exist already, and can only edit one file at a time.
+Note: nbespin currently edits only one file at a time.
 
 License
 -------
