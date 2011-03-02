@@ -1,3 +1,5 @@
+OH HEY.  nbespin doesn't really work anymore, due mostly to neglect.  Anyway there are some way cooler projects integrating Bespin/Skywriter.  Start by taking a look at https://github.com/ajaxorg/cloud9 and https://github.com/kenotron/sourcekit which are some really good ones.
+
 nbespin
 =======
 
